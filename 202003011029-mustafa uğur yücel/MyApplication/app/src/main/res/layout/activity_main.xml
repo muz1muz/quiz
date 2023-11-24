@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvw"
+        android:layout_width="333dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="39dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tw3"
+        android:layout_width="@dimen/tvw_w"
+        android:layout_height="@dimen/tvw_h"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="39dp"
+        android:text="@string/oyun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvw" />
+
+    <EditText
+        android:id="@+id/etvw"
+        android:layout_width="@dimen/etvw_w"
+        android:layout_height="@dimen/etvw_h"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/etvws"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tw3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/etvws_w"
+        android:layout_height="@dimen/etvws_h"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+
+        android:text="@string/etvws"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tw3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/etvws_w"
+        android:layout_height="@dimen/etvws_h"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/etvws2"
+
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="16dp"
+        android:text="yeni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etvw2"
+        android:layout_width="@dimen/etvw_w"
+        android:layout_height="@dimen/etvw_h"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/etvws2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/tw4"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+
+        android:layout_marginTop="28dp"
+        android:text="-"
+        app:layout_constraintEnd_toStartOf="@+id/tw2"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toEndOf="@+id/tw1"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="112dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <TextView
+        android:id="@+id/tw2"
+        android:layout_width="112dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/say1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="@dimen/btn_w"
+        android:layout_height="@dimen/btn_h"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/but2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tw1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="@dimen/btn_w"
+        android:layout_height="@dimen/btn_h"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/but"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

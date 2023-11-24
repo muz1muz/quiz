@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="but">oyuncu1 kazandı </string>
+    <string name="but2">oyuncu2 kazandı </string>
+    <string name="say">0</string>
+    <string name="say1">0</string>
+    <string name="etvws">oyuncu1</string>
+    <string name="etvws2">oyuncu2</string>
+    <string name="oyun">oyun quizi</string>
+</resources>
